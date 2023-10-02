@@ -1,0 +1,1999 @@
+{
+    "_nodetype": "FileAST",
+    "coord": null,
+    "ext": [
+        {
+            "_nodetype": "FuncDef",
+            "body": {
+                "_nodetype": "Compound",
+                "block_items": [
+                    {
+                        "_nodetype": "FuncCall",
+                        "args": {
+                            "_nodetype": "ExprList",
+                            "coord": "pcap_assign.c:3:12",
+                            "exprs": [
+                                {
+                                    "_nodetype": "Constant",
+                                    "coord": "pcap_assign.c:3:12",
+                                    "type": "string",
+                                    "value": "\"%02x:%02x:%02x:%02x:%02x:%02x\\n\""
+                                },
+                                {
+                                    "_nodetype": "ArrayRef",
+                                    "coord": "pcap_assign.c:3:47",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:3:47",
+                                        "name": "mac"
+                                    },
+                                    "subscript": {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:3:51",
+                                        "type": "int",
+                                        "value": "0"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "ArrayRef",
+                                    "coord": "pcap_assign.c:3:55",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:3:55",
+                                        "name": "mac"
+                                    },
+                                    "subscript": {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:3:59",
+                                        "type": "int",
+                                        "value": "1"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "ArrayRef",
+                                    "coord": "pcap_assign.c:3:63",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:3:63",
+                                        "name": "mac"
+                                    },
+                                    "subscript": {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:3:67",
+                                        "type": "int",
+                                        "value": "2"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "ArrayRef",
+                                    "coord": "pcap_assign.c:3:71",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:3:71",
+                                        "name": "mac"
+                                    },
+                                    "subscript": {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:3:75",
+                                        "type": "int",
+                                        "value": "3"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "ArrayRef",
+                                    "coord": "pcap_assign.c:3:79",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:3:79",
+                                        "name": "mac"
+                                    },
+                                    "subscript": {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:3:83",
+                                        "type": "int",
+                                        "value": "4"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "ArrayRef",
+                                    "coord": "pcap_assign.c:3:87",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:3:87",
+                                        "name": "mac"
+                                    },
+                                    "subscript": {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:3:91",
+                                        "type": "int",
+                                        "value": "5"
+                                    }
+                                }
+                            ]
+                        },
+                        "coord": "pcap_assign.c:3:5",
+                        "name": {
+                            "_nodetype": "ID",
+                            "coord": "pcap_assign.c:3:5",
+                            "name": "printf"
+                        }
+                    }
+                ],
+                "coord": "pcap_assign.c:2:1"
+            },
+            "coord": "pcap_assign.c:2:6",
+            "decl": {
+                "_nodetype": "Decl",
+                "align": [],
+                "bitsize": null,
+                "coord": "pcap_assign.c:2:6",
+                "funcspec": [],
+                "init": null,
+                "name": "print_mac_address",
+                "quals": [],
+                "storage": [],
+                "type": {
+                    "_nodetype": "FuncDecl",
+                    "args": {
+                        "_nodetype": "ParamList",
+                        "coord": "pcap_assign.c:2:29",
+                        "params": [
+                            {
+                                "_nodetype": "Decl",
+                                "align": [],
+                                "bitsize": null,
+                                "coord": "pcap_assign.c:2:29",
+                                "funcspec": [],
+                                "init": null,
+                                "name": "mac",
+                                "quals": [],
+                                "storage": [],
+                                "type": {
+                                    "_nodetype": "PtrDecl",
+                                    "coord": "pcap_assign.c:2:29",
+                                    "quals": [],
+                                    "type": {
+                                        "_nodetype": "TypeDecl",
+                                        "align": null,
+                                        "coord": "pcap_assign.c:2:30",
+                                        "declname": "mac",
+                                        "quals": [],
+                                        "type": {
+                                            "_nodetype": "IdentifierType",
+                                            "coord": "pcap_assign.c:2:24",
+                                            "names": [
+                                                "char"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "coord": "pcap_assign.c:2:6",
+                    "type": {
+                        "_nodetype": "TypeDecl",
+                        "align": null,
+                        "coord": "pcap_assign.c:2:6",
+                        "declname": "print_mac_address",
+                        "quals": [],
+                        "type": {
+                            "_nodetype": "IdentifierType",
+                            "coord": "pcap_assign.c:2:1",
+                            "names": [
+                                "void"
+                            ]
+                        }
+                    }
+                }
+            },
+            "param_decls": null
+        },
+        {
+            "_nodetype": "FuncDef",
+            "body": {
+                "_nodetype": "Compound",
+                "block_items": [
+                    {
+                        "_nodetype": "Decl",
+                        "align": [],
+                        "bitsize": null,
+                        "coord": "pcap_assign.c:10:23",
+                        "funcspec": [],
+                        "init": {
+                            "_nodetype": "Cast",
+                            "coord": "pcap_assign.c:10:30",
+                            "expr": {
+                                "_nodetype": "ID",
+                                "coord": "pcap_assign.c:10:53",
+                                "name": "packet"
+                            },
+                            "to_type": {
+                                "_nodetype": "Typename",
+                                "align": null,
+                                "coord": "pcap_assign.c:0:1",
+                                "name": null,
+                                "quals": [],
+                                "type": {
+                                    "_nodetype": "PtrDecl",
+                                    "coord": "pcap_assign.c:10:51",
+                                    "quals": [],
+                                    "type": {
+                                        "_nodetype": "TypeDecl",
+                                        "align": null,
+                                        "coord": null,
+                                        "declname": null,
+                                        "quals": [],
+                                        "type": {
+                                            "_nodetype": "Struct",
+                                            "coord": "pcap_assign.c:10:38",
+                                            "decls": null,
+                                            "name": "ether_header"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "name": "eth",
+                        "quals": [],
+                        "storage": [],
+                        "type": {
+                            "_nodetype": "PtrDecl",
+                            "coord": "pcap_assign.c:10:23",
+                            "quals": [],
+                            "type": {
+                                "_nodetype": "TypeDecl",
+                                "align": null,
+                                "coord": "pcap_assign.c:10:24",
+                                "declname": "eth",
+                                "quals": [],
+                                "type": {
+                                    "_nodetype": "Struct",
+                                    "coord": "pcap_assign.c:10:10",
+                                    "decls": null,
+                                    "name": "ether_header"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_nodetype": "If",
+                        "cond": {
+                            "_nodetype": "BinaryOp",
+                            "coord": "pcap_assign.c:12:7",
+                            "left": {
+                                "_nodetype": "FuncCall",
+                                "args": {
+                                    "_nodetype": "ExprList",
+                                    "coord": "pcap_assign.c:12:13",
+                                    "exprs": [
+                                        {
+                                            "_nodetype": "StructRef",
+                                            "coord": "pcap_assign.c:12:13",
+                                            "field": {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:12:18",
+                                                "name": "ether_type"
+                                            },
+                                            "name": {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:12:13",
+                                                "name": "eth"
+                                            },
+                                            "type": "->"
+                                        }
+                                    ]
+                                },
+                                "coord": "pcap_assign.c:12:7",
+                                "name": {
+                                    "_nodetype": "ID",
+                                    "coord": "pcap_assign.c:12:7",
+                                    "name": "ntohs"
+                                }
+                            },
+                            "op": "==",
+                            "right": {
+                                "_nodetype": "ID",
+                                "coord": "pcap_assign.c:12:33",
+                                "name": "ETHERTYPE_IP"
+                            }
+                        },
+                        "coord": "pcap_assign.c:12:3",
+                        "iffalse": null,
+                        "iftrue": {
+                            "_nodetype": "Compound",
+                            "block_items": [
+                                {
+                                    "_nodetype": "FuncCall",
+                                    "args": {
+                                        "_nodetype": "ExprList",
+                                        "coord": "pcap_assign.c:13:12",
+                                        "exprs": [
+                                            {
+                                                "_nodetype": "Constant",
+                                                "coord": "pcap_assign.c:13:12",
+                                                "type": "string",
+                                                "value": "\"Src MAC: \""
+                                            }
+                                        ]
+                                    },
+                                    "coord": "pcap_assign.c:13:5",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:13:5",
+                                        "name": "printf"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "FuncCall",
+                                    "args": {
+                                        "_nodetype": "ExprList",
+                                        "coord": "pcap_assign.c:14:23",
+                                        "exprs": [
+                                            {
+                                                "_nodetype": "StructRef",
+                                                "coord": "pcap_assign.c:14:23",
+                                                "field": {
+                                                    "_nodetype": "ID",
+                                                    "coord": "pcap_assign.c:14:28",
+                                                    "name": "ether_shost"
+                                                },
+                                                "name": {
+                                                    "_nodetype": "ID",
+                                                    "coord": "pcap_assign.c:14:23",
+                                                    "name": "eth"
+                                                },
+                                                "type": "->"
+                                            }
+                                        ]
+                                    },
+                                    "coord": "pcap_assign.c:14:5",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:14:5",
+                                        "name": "print_mac_address"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "FuncCall",
+                                    "args": {
+                                        "_nodetype": "ExprList",
+                                        "coord": "pcap_assign.c:15:12",
+                                        "exprs": [
+                                            {
+                                                "_nodetype": "Constant",
+                                                "coord": "pcap_assign.c:15:12",
+                                                "type": "string",
+                                                "value": "\"Dst MAC: \""
+                                            }
+                                        ]
+                                    },
+                                    "coord": "pcap_assign.c:15:5",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:15:5",
+                                        "name": "printf"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "FuncCall",
+                                    "args": {
+                                        "_nodetype": "ExprList",
+                                        "coord": "pcap_assign.c:16:23",
+                                        "exprs": [
+                                            {
+                                                "_nodetype": "StructRef",
+                                                "coord": "pcap_assign.c:16:23",
+                                                "field": {
+                                                    "_nodetype": "ID",
+                                                    "coord": "pcap_assign.c:16:28",
+                                                    "name": "ether_dhost"
+                                                },
+                                                "name": {
+                                                    "_nodetype": "ID",
+                                                    "coord": "pcap_assign.c:16:23",
+                                                    "name": "eth"
+                                                },
+                                                "type": "->"
+                                            }
+                                        ]
+                                    },
+                                    "coord": "pcap_assign.c:16:5",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:16:5",
+                                        "name": "print_mac_address"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "Decl",
+                                    "align": [],
+                                    "bitsize": null,
+                                    "coord": "pcap_assign.c:19:18",
+                                    "funcspec": [],
+                                    "init": {
+                                        "_nodetype": "Cast",
+                                        "coord": "pcap_assign.c:19:24",
+                                        "expr": {
+                                            "_nodetype": "BinaryOp",
+                                            "coord": "pcap_assign.c:19:41",
+                                            "left": {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:19:41",
+                                                "name": "packet"
+                                            },
+                                            "op": "+",
+                                            "right": {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:19:50",
+                                                "name": "ETHER_HDR_LEN"
+                                            }
+                                        },
+                                        "to_type": {
+                                            "_nodetype": "Typename",
+                                            "align": null,
+                                            "coord": "pcap_assign.c:0:1",
+                                            "name": null,
+                                            "quals": [],
+                                            "type": {
+                                                "_nodetype": "PtrDecl",
+                                                "coord": "pcap_assign.c:19:38",
+                                                "quals": [],
+                                                "type": {
+                                                    "_nodetype": "TypeDecl",
+                                                    "align": null,
+                                                    "coord": null,
+                                                    "declname": null,
+                                                    "quals": [],
+                                                    "type": {
+                                                        "_nodetype": "Struct",
+                                                        "coord": "pcap_assign.c:19:32",
+                                                        "decls": null,
+                                                        "name": "iphdr"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "name": "ip",
+                                    "quals": [],
+                                    "storage": [],
+                                    "type": {
+                                        "_nodetype": "PtrDecl",
+                                        "coord": "pcap_assign.c:19:18",
+                                        "quals": [],
+                                        "type": {
+                                            "_nodetype": "TypeDecl",
+                                            "align": null,
+                                            "coord": "pcap_assign.c:19:19",
+                                            "declname": "ip",
+                                            "quals": [],
+                                            "type": {
+                                                "_nodetype": "Struct",
+                                                "coord": "pcap_assign.c:19:12",
+                                                "decls": null,
+                                                "name": "iphdr"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "_nodetype": "Decl",
+                                    "align": [],
+                                    "bitsize": null,
+                                    "coord": "pcap_assign.c:21:10",
+                                    "funcspec": [],
+                                    "init": null,
+                                    "name": "src_ip_str",
+                                    "quals": [],
+                                    "storage": [],
+                                    "type": {
+                                        "_nodetype": "ArrayDecl",
+                                        "coord": "pcap_assign.c:21:10",
+                                        "dim": {
+                                            "_nodetype": "ID",
+                                            "coord": "pcap_assign.c:21:21",
+                                            "name": "INET_ADDRSTRLEN"
+                                        },
+                                        "dim_quals": [],
+                                        "type": {
+                                            "_nodetype": "TypeDecl",
+                                            "align": null,
+                                            "coord": "pcap_assign.c:21:10",
+                                            "declname": "src_ip_str",
+                                            "quals": [],
+                                            "type": {
+                                                "_nodetype": "IdentifierType",
+                                                "coord": "pcap_assign.c:21:5",
+                                                "names": [
+                                                    "char"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "_nodetype": "Decl",
+                                    "align": [],
+                                    "bitsize": null,
+                                    "coord": "pcap_assign.c:22:10",
+                                    "funcspec": [],
+                                    "init": null,
+                                    "name": "dst_ip_str",
+                                    "quals": [],
+                                    "storage": [],
+                                    "type": {
+                                        "_nodetype": "ArrayDecl",
+                                        "coord": "pcap_assign.c:22:10",
+                                        "dim": {
+                                            "_nodetype": "ID",
+                                            "coord": "pcap_assign.c:22:21",
+                                            "name": "INET_ADDRSTRLEN"
+                                        },
+                                        "dim_quals": [],
+                                        "type": {
+                                            "_nodetype": "TypeDecl",
+                                            "align": null,
+                                            "coord": "pcap_assign.c:22:10",
+                                            "declname": "dst_ip_str",
+                                            "quals": [],
+                                            "type": {
+                                                "_nodetype": "IdentifierType",
+                                                "coord": "pcap_assign.c:22:5",
+                                                "names": [
+                                                    "char"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "_nodetype": "FuncCall",
+                                    "args": {
+                                        "_nodetype": "ExprList",
+                                        "coord": "pcap_assign.c:25:15",
+                                        "exprs": [
+                                            {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:25:15",
+                                                "name": "AF_INET"
+                                            },
+                                            {
+                                                "_nodetype": "UnaryOp",
+                                                "coord": "pcap_assign.c:25:26",
+                                                "expr": {
+                                                    "_nodetype": "StructRef",
+                                                    "coord": "pcap_assign.c:25:26",
+                                                    "field": {
+                                                        "_nodetype": "ID",
+                                                        "coord": "pcap_assign.c:25:30",
+                                                        "name": "saddr"
+                                                    },
+                                                    "name": {
+                                                        "_nodetype": "ID",
+                                                        "coord": "pcap_assign.c:25:26",
+                                                        "name": "ip"
+                                                    },
+                                                    "type": "->"
+                                                },
+                                                "op": "&"
+                                            },
+                                            {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:25:38",
+                                                "name": "src_ip_str"
+                                            },
+                                            {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:25:50",
+                                                "name": "INET_ADDRSTRLEN"
+                                            }
+                                        ]
+                                    },
+                                    "coord": "pcap_assign.c:25:5",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:25:5",
+                                        "name": "inet_ntop"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "FuncCall",
+                                    "args": {
+                                        "_nodetype": "ExprList",
+                                        "coord": "pcap_assign.c:26:15",
+                                        "exprs": [
+                                            {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:26:15",
+                                                "name": "AF_INET"
+                                            },
+                                            {
+                                                "_nodetype": "UnaryOp",
+                                                "coord": "pcap_assign.c:26:26",
+                                                "expr": {
+                                                    "_nodetype": "StructRef",
+                                                    "coord": "pcap_assign.c:26:26",
+                                                    "field": {
+                                                        "_nodetype": "ID",
+                                                        "coord": "pcap_assign.c:26:30",
+                                                        "name": "daddr"
+                                                    },
+                                                    "name": {
+                                                        "_nodetype": "ID",
+                                                        "coord": "pcap_assign.c:26:26",
+                                                        "name": "ip"
+                                                    },
+                                                    "type": "->"
+                                                },
+                                                "op": "&"
+                                            },
+                                            {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:26:38",
+                                                "name": "dst_ip_str"
+                                            },
+                                            {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:26:50",
+                                                "name": "INET_ADDRSTRLEN"
+                                            }
+                                        ]
+                                    },
+                                    "coord": "pcap_assign.c:26:5",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:26:5",
+                                        "name": "inet_ntop"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "FuncCall",
+                                    "args": {
+                                        "_nodetype": "ExprList",
+                                        "coord": "pcap_assign.c:28:12",
+                                        "exprs": [
+                                            {
+                                                "_nodetype": "Constant",
+                                                "coord": "pcap_assign.c:28:12",
+                                                "type": "string",
+                                                "value": "\"Src IP: %s\\n\""
+                                            },
+                                            {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:28:28",
+                                                "name": "src_ip_str"
+                                            }
+                                        ]
+                                    },
+                                    "coord": "pcap_assign.c:28:5",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:28:5",
+                                        "name": "printf"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "FuncCall",
+                                    "args": {
+                                        "_nodetype": "ExprList",
+                                        "coord": "pcap_assign.c:29:12",
+                                        "exprs": [
+                                            {
+                                                "_nodetype": "Constant",
+                                                "coord": "pcap_assign.c:29:12",
+                                                "type": "string",
+                                                "value": "\"Dst IP: %s\\n\""
+                                            },
+                                            {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:29:28",
+                                                "name": "dst_ip_str"
+                                            }
+                                        ]
+                                    },
+                                    "coord": "pcap_assign.c:29:5",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:29:5",
+                                        "name": "printf"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "Switch",
+                                    "cond": {
+                                        "_nodetype": "StructRef",
+                                        "coord": "pcap_assign.c:32:13",
+                                        "field": {
+                                            "_nodetype": "ID",
+                                            "coord": "pcap_assign.c:32:17",
+                                            "name": "protocol"
+                                        },
+                                        "name": {
+                                            "_nodetype": "ID",
+                                            "coord": "pcap_assign.c:32:13",
+                                            "name": "ip"
+                                        },
+                                        "type": "->"
+                                    },
+                                    "coord": "pcap_assign.c:32:6",
+                                    "stmt": {
+                                        "_nodetype": "Compound",
+                                        "block_items": [
+                                            {
+                                                "_nodetype": "Case",
+                                                "coord": "pcap_assign.c:33:9",
+                                                "expr": {
+                                                    "_nodetype": "ID",
+                                                    "coord": "pcap_assign.c:33:14",
+                                                    "name": "IPPROTO_TCP"
+                                                },
+                                                "stmts": [
+                                                    {
+                                                        "_nodetype": "Compound",
+                                                        "block_items": [
+                                                            {
+                                                                "_nodetype": "Decl",
+                                                                "align": [],
+                                                                "bitsize": null,
+                                                                "coord": "pcap_assign.c:36:30",
+                                                                "funcspec": [],
+                                                                "init": {
+                                                                    "_nodetype": "Cast",
+                                                                    "coord": "pcap_assign.c:36:38",
+                                                                    "expr": {
+                                                                        "_nodetype": "BinaryOp",
+                                                                        "coord": "pcap_assign.c:36:55",
+                                                                        "left": {
+                                                                            "_nodetype": "BinaryOp",
+                                                                            "coord": "pcap_assign.c:36:55",
+                                                                            "left": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:36:55",
+                                                                                "name": "packet"
+                                                                            },
+                                                                            "op": "+",
+                                                                            "right": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:36:64",
+                                                                                "name": "ETHER_HDR_LEN"
+                                                                            }
+                                                                        },
+                                                                        "op": "+",
+                                                                        "right": {
+                                                                            "_nodetype": "BinaryOp",
+                                                                            "coord": "pcap_assign.c:36:80",
+                                                                            "left": {
+                                                                                "_nodetype": "StructRef",
+                                                                                "coord": "pcap_assign.c:36:80",
+                                                                                "field": {
+                                                                                    "_nodetype": "ID",
+                                                                                    "coord": "pcap_assign.c:36:84",
+                                                                                    "name": "ihl"
+                                                                                },
+                                                                                "name": {
+                                                                                    "_nodetype": "ID",
+                                                                                    "coord": "pcap_assign.c:36:80",
+                                                                                    "name": "ip"
+                                                                                },
+                                                                                "type": "->"
+                                                                            },
+                                                                            "op": "*",
+                                                                            "right": {
+                                                                                "_nodetype": "Constant",
+                                                                                "coord": "pcap_assign.c:36:88",
+                                                                                "type": "int",
+                                                                                "value": "4"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "to_type": {
+                                                                        "_nodetype": "Typename",
+                                                                        "align": null,
+                                                                        "coord": "pcap_assign.c:0:1",
+                                                                        "name": null,
+                                                                        "quals": [],
+                                                                        "type": {
+                                                                            "_nodetype": "PtrDecl",
+                                                                            "coord": "pcap_assign.c:36:52",
+                                                                            "quals": [],
+                                                                            "type": {
+                                                                                "_nodetype": "TypeDecl",
+                                                                                "align": null,
+                                                                                "coord": null,
+                                                                                "declname": null,
+                                                                                "quals": [],
+                                                                                "type": {
+                                                                                    "_nodetype": "Struct",
+                                                                                    "coord": "pcap_assign.c:36:46",
+                                                                                    "decls": null,
+                                                                                    "name": "tcphdr"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "name": "tcp",
+                                                                "quals": [],
+                                                                "storage": [],
+                                                                "type": {
+                                                                    "_nodetype": "PtrDecl",
+                                                                    "coord": "pcap_assign.c:36:30",
+                                                                    "quals": [],
+                                                                    "type": {
+                                                                        "_nodetype": "TypeDecl",
+                                                                        "align": null,
+                                                                        "coord": "pcap_assign.c:36:32",
+                                                                        "declname": "tcp",
+                                                                        "quals": [],
+                                                                        "type": {
+                                                                            "_nodetype": "Struct",
+                                                                            "coord": "pcap_assign.c:36:24",
+                                                                            "decls": null,
+                                                                            "name": "tcphdr"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "_nodetype": "FuncCall",
+                                                                "args": {
+                                                                    "_nodetype": "ExprList",
+                                                                    "coord": "pcap_assign.c:38:24",
+                                                                    "exprs": [
+                                                                        {
+                                                                            "_nodetype": "Constant",
+                                                                            "coord": "pcap_assign.c:38:24",
+                                                                            "type": "string",
+                                                                            "value": "\"Src Port: %d\\n\""
+                                                                        },
+                                                                        {
+                                                                            "_nodetype": "FuncCall",
+                                                                            "args": {
+                                                                                "_nodetype": "ExprList",
+                                                                                "coord": "pcap_assign.c:38:48",
+                                                                                "exprs": [
+                                                                                    {
+                                                                                        "_nodetype": "StructRef",
+                                                                                        "coord": "pcap_assign.c:38:48",
+                                                                                        "field": {
+                                                                                            "_nodetype": "ID",
+                                                                                            "coord": "pcap_assign.c:38:53",
+                                                                                            "name": "source"
+                                                                                        },
+                                                                                        "name": {
+                                                                                            "_nodetype": "ID",
+                                                                                            "coord": "pcap_assign.c:38:48",
+                                                                                            "name": "tcp"
+                                                                                        },
+                                                                                        "type": "->"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "coord": "pcap_assign.c:38:42",
+                                                                            "name": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:38:42",
+                                                                                "name": "ntohs"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "coord": "pcap_assign.c:38:17",
+                                                                "name": {
+                                                                    "_nodetype": "ID",
+                                                                    "coord": "pcap_assign.c:38:17",
+                                                                    "name": "printf"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_nodetype": "FuncCall",
+                                                                "args": {
+                                                                    "_nodetype": "ExprList",
+                                                                    "coord": "pcap_assign.c:39:24",
+                                                                    "exprs": [
+                                                                        {
+                                                                            "_nodetype": "Constant",
+                                                                            "coord": "pcap_assign.c:39:24",
+                                                                            "type": "string",
+                                                                            "value": "\"Dst Port: %d\\n\""
+                                                                        },
+                                                                        {
+                                                                            "_nodetype": "FuncCall",
+                                                                            "args": {
+                                                                                "_nodetype": "ExprList",
+                                                                                "coord": "pcap_assign.c:39:48",
+                                                                                "exprs": [
+                                                                                    {
+                                                                                        "_nodetype": "StructRef",
+                                                                                        "coord": "pcap_assign.c:39:48",
+                                                                                        "field": {
+                                                                                            "_nodetype": "ID",
+                                                                                            "coord": "pcap_assign.c:39:53",
+                                                                                            "name": "dest"
+                                                                                        },
+                                                                                        "name": {
+                                                                                            "_nodetype": "ID",
+                                                                                            "coord": "pcap_assign.c:39:48",
+                                                                                            "name": "tcp"
+                                                                                        },
+                                                                                        "type": "->"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "coord": "pcap_assign.c:39:42",
+                                                                            "name": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:39:42",
+                                                                                "name": "ntohs"
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "coord": "pcap_assign.c:39:17",
+                                                                "name": {
+                                                                    "_nodetype": "ID",
+                                                                    "coord": "pcap_assign.c:39:17",
+                                                                    "name": "printf"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_nodetype": "Decl",
+                                                                "align": [],
+                                                                "bitsize": null,
+                                                                "coord": "pcap_assign.c:42:21",
+                                                                "funcspec": [],
+                                                                "init": {
+                                                                    "_nodetype": "BinaryOp",
+                                                                    "coord": "pcap_assign.c:42:35",
+                                                                    "left": {
+                                                                        "_nodetype": "BinaryOp",
+                                                                        "coord": "pcap_assign.c:42:35",
+                                                                        "left": {
+                                                                            "_nodetype": "ID",
+                                                                            "coord": "pcap_assign.c:42:35",
+                                                                            "name": "ETHER_HDR_LEN"
+                                                                        },
+                                                                        "op": "+",
+                                                                        "right": {
+                                                                            "_nodetype": "BinaryOp",
+                                                                            "coord": "pcap_assign.c:42:51",
+                                                                            "left": {
+                                                                                "_nodetype": "StructRef",
+                                                                                "coord": "pcap_assign.c:42:51",
+                                                                                "field": {
+                                                                                    "_nodetype": "ID",
+                                                                                    "coord": "pcap_assign.c:42:55",
+                                                                                    "name": "ihl"
+                                                                                },
+                                                                                "name": {
+                                                                                    "_nodetype": "ID",
+                                                                                    "coord": "pcap_assign.c:42:51",
+                                                                                    "name": "ip"
+                                                                                },
+                                                                                "type": "->"
+                                                                            },
+                                                                            "op": "*",
+                                                                            "right": {
+                                                                                "_nodetype": "Constant",
+                                                                                "coord": "pcap_assign.c:42:59",
+                                                                                "type": "int",
+                                                                                "value": "4"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "op": "+",
+                                                                    "right": {
+                                                                        "_nodetype": "BinaryOp",
+                                                                        "coord": "pcap_assign.c:42:63",
+                                                                        "left": {
+                                                                            "_nodetype": "StructRef",
+                                                                            "coord": "pcap_assign.c:42:63",
+                                                                            "field": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:42:68",
+                                                                                "name": "doff"
+                                                                            },
+                                                                            "name": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:42:63",
+                                                                                "name": "tcp"
+                                                                            },
+                                                                            "type": "->"
+                                                                        },
+                                                                        "op": "*",
+                                                                        "right": {
+                                                                            "_nodetype": "Constant",
+                                                                            "coord": "pcap_assign.c:42:73",
+                                                                            "type": "int",
+                                                                            "value": "4"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "name": "header_size",
+                                                                "quals": [],
+                                                                "storage": [],
+                                                                "type": {
+                                                                    "_nodetype": "TypeDecl",
+                                                                    "align": null,
+                                                                    "coord": "pcap_assign.c:42:21",
+                                                                    "declname": "header_size",
+                                                                    "quals": [],
+                                                                    "type": {
+                                                                        "_nodetype": "IdentifierType",
+                                                                        "coord": "pcap_assign.c:42:17",
+                                                                        "names": [
+                                                                            "int"
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "_nodetype": "Decl",
+                                                                "align": [],
+                                                                "bitsize": null,
+                                                                "coord": "pcap_assign.c:43:21",
+                                                                "funcspec": [],
+                                                                "init": {
+                                                                    "_nodetype": "BinaryOp",
+                                                                    "coord": "pcap_assign.c:43:35",
+                                                                    "left": {
+                                                                        "_nodetype": "BinaryOp",
+                                                                        "coord": "pcap_assign.c:43:35",
+                                                                        "left": {
+                                                                            "_nodetype": "FuncCall",
+                                                                            "args": {
+                                                                                "_nodetype": "ExprList",
+                                                                                "coord": "pcap_assign.c:43:41",
+                                                                                "exprs": [
+                                                                                    {
+                                                                                        "_nodetype": "StructRef",
+                                                                                        "coord": "pcap_assign.c:43:41",
+                                                                                        "field": {
+                                                                                            "_nodetype": "ID",
+                                                                                            "coord": "pcap_assign.c:43:45",
+                                                                                            "name": "tot_len"
+                                                                                        },
+                                                                                        "name": {
+                                                                                            "_nodetype": "ID",
+                                                                                            "coord": "pcap_assign.c:43:41",
+                                                                                            "name": "ip"
+                                                                                        },
+                                                                                        "type": "->"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "coord": "pcap_assign.c:43:35",
+                                                                            "name": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:43:35",
+                                                                                "name": "ntohs"
+                                                                            }
+                                                                        },
+                                                                        "op": "-",
+                                                                        "right": {
+                                                                            "_nodetype": "BinaryOp",
+                                                                            "coord": "pcap_assign.c:43:56",
+                                                                            "left": {
+                                                                                "_nodetype": "StructRef",
+                                                                                "coord": "pcap_assign.c:43:56",
+                                                                                "field": {
+                                                                                    "_nodetype": "ID",
+                                                                                    "coord": "pcap_assign.c:43:60",
+                                                                                    "name": "ihl"
+                                                                                },
+                                                                                "name": {
+                                                                                    "_nodetype": "ID",
+                                                                                    "coord": "pcap_assign.c:43:56",
+                                                                                    "name": "ip"
+                                                                                },
+                                                                                "type": "->"
+                                                                            },
+                                                                            "op": "*",
+                                                                            "right": {
+                                                                                "_nodetype": "Constant",
+                                                                                "coord": "pcap_assign.c:43:64",
+                                                                                "type": "int",
+                                                                                "value": "4"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "op": "-",
+                                                                    "right": {
+                                                                        "_nodetype": "BinaryOp",
+                                                                        "coord": "pcap_assign.c:43:68",
+                                                                        "left": {
+                                                                            "_nodetype": "StructRef",
+                                                                            "coord": "pcap_assign.c:43:68",
+                                                                            "field": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:43:75",
+                                                                                "name": "doff"
+                                                                            },
+                                                                            "name": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:43:68",
+                                                                                "name": "tcp"
+                                                                            },
+                                                                            "type": "->"
+                                                                        },
+                                                                        "op": "*",
+                                                                        "right": {
+                                                                            "_nodetype": "Constant",
+                                                                            "coord": "pcap_assign.c:43:80",
+                                                                            "type": "int",
+                                                                            "value": "4"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "name": "data_length",
+                                                                "quals": [],
+                                                                "storage": [],
+                                                                "type": {
+                                                                    "_nodetype": "TypeDecl",
+                                                                    "align": null,
+                                                                    "coord": "pcap_assign.c:43:21",
+                                                                    "declname": "data_length",
+                                                                    "quals": [],
+                                                                    "type": {
+                                                                        "_nodetype": "IdentifierType",
+                                                                        "coord": "pcap_assign.c:43:17",
+                                                                        "names": [
+                                                                            "int"
+                                                                        ]
+                                                                    }
+                                                                }
+                                                            },
+                                                            {
+                                                                "_nodetype": "If",
+                                                                "cond": {
+                                                                    "_nodetype": "BinaryOp",
+                                                                    "coord": "pcap_assign.c:45:20",
+                                                                    "left": {
+                                                                        "_nodetype": "ID",
+                                                                        "coord": "pcap_assign.c:45:20",
+                                                                        "name": "data_length"
+                                                                    },
+                                                                    "op": ">",
+                                                                    "right": {
+                                                                        "_nodetype": "Constant",
+                                                                        "coord": "pcap_assign.c:45:34",
+                                                                        "type": "int",
+                                                                        "value": "0"
+                                                                    }
+                                                                },
+                                                                "coord": "pcap_assign.c:45:17",
+                                                                "iffalse": null,
+                                                                "iftrue": {
+                                                                    "_nodetype": "Compound",
+                                                                    "block_items": [
+                                                                        {
+                                                                            "_nodetype": "Decl",
+                                                                            "align": [],
+                                                                            "bitsize": null,
+                                                                            "coord": "pcap_assign.c:46:26",
+                                                                            "funcspec": [],
+                                                                            "init": {
+                                                                                "_nodetype": "Cast",
+                                                                                "coord": "pcap_assign.c:46:34",
+                                                                                "expr": {
+                                                                                    "_nodetype": "BinaryOp",
+                                                                                    "coord": "pcap_assign.c:46:43",
+                                                                                    "left": {
+                                                                                        "_nodetype": "ID",
+                                                                                        "coord": "pcap_assign.c:46:43",
+                                                                                        "name": "packet"
+                                                                                    },
+                                                                                    "op": "+",
+                                                                                    "right": {
+                                                                                        "_nodetype": "ID",
+                                                                                        "coord": "pcap_assign.c:46:52",
+                                                                                        "name": "header_size"
+                                                                                    }
+                                                                                },
+                                                                                "to_type": {
+                                                                                    "_nodetype": "Typename",
+                                                                                    "align": null,
+                                                                                    "coord": "pcap_assign.c:0:1",
+                                                                                    "name": null,
+                                                                                    "quals": [],
+                                                                                    "type": {
+                                                                                        "_nodetype": "PtrDecl",
+                                                                                        "coord": "pcap_assign.c:46:40",
+                                                                                        "quals": [],
+                                                                                        "type": {
+                                                                                            "_nodetype": "TypeDecl",
+                                                                                            "align": null,
+                                                                                            "coord": null,
+                                                                                            "declname": null,
+                                                                                            "quals": [],
+                                                                                            "type": {
+                                                                                                "_nodetype": "IdentifierType",
+                                                                                                "coord": "pcap_assign.c:46:35",
+                                                                                                "names": [
+                                                                                                    "char"
+                                                                                                ]
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            },
+                                                                            "name": "data",
+                                                                            "quals": [],
+                                                                            "storage": [],
+                                                                            "type": {
+                                                                                "_nodetype": "PtrDecl",
+                                                                                "coord": "pcap_assign.c:46:26",
+                                                                                "quals": [],
+                                                                                "type": {
+                                                                                    "_nodetype": "TypeDecl",
+                                                                                    "align": null,
+                                                                                    "coord": "pcap_assign.c:46:27",
+                                                                                    "declname": "data",
+                                                                                    "quals": [],
+                                                                                    "type": {
+                                                                                        "_nodetype": "IdentifierType",
+                                                                                        "coord": "pcap_assign.c:46:21",
+                                                                                        "names": [
+                                                                                            "char"
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "_nodetype": "For",
+                                                                            "cond": {
+                                                                                "_nodetype": "BinaryOp",
+                                                                                "coord": "pcap_assign.c:47:34",
+                                                                                "left": {
+                                                                                    "_nodetype": "ID",
+                                                                                    "coord": "pcap_assign.c:47:34",
+                                                                                    "name": "i"
+                                                                                },
+                                                                                "op": "<",
+                                                                                "right": {
+                                                                                    "_nodetype": "ID",
+                                                                                    "coord": "pcap_assign.c:47:36",
+                                                                                    "name": "data_length"
+                                                                                }
+                                                                            },
+                                                                            "coord": "pcap_assign.c:47:21",
+                                                                            "init": {
+                                                                                "_nodetype": "DeclList",
+                                                                                "coord": "pcap_assign.c:47:21",
+                                                                                "decls": [
+                                                                                    {
+                                                                                        "_nodetype": "Decl",
+                                                                                        "align": [],
+                                                                                        "bitsize": null,
+                                                                                        "coord": "pcap_assign.c:47:29",
+                                                                                        "funcspec": [],
+                                                                                        "init": {
+                                                                                            "_nodetype": "Constant",
+                                                                                            "coord": "pcap_assign.c:47:31",
+                                                                                            "type": "int",
+                                                                                            "value": "0"
+                                                                                        },
+                                                                                        "name": "i",
+                                                                                        "quals": [],
+                                                                                        "storage": [],
+                                                                                        "type": {
+                                                                                            "_nodetype": "TypeDecl",
+                                                                                            "align": null,
+                                                                                            "coord": "pcap_assign.c:47:29",
+                                                                                            "declname": "i",
+                                                                                            "quals": [],
+                                                                                            "type": {
+                                                                                                "_nodetype": "IdentifierType",
+                                                                                                "coord": "pcap_assign.c:47:25",
+                                                                                                "names": [
+                                                                                                    "int"
+                                                                                                ]
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "next": {
+                                                                                "_nodetype": "UnaryOp",
+                                                                                "coord": "pcap_assign.c:47:49",
+                                                                                "expr": {
+                                                                                    "_nodetype": "ID",
+                                                                                    "coord": "pcap_assign.c:47:49",
+                                                                                    "name": "i"
+                                                                                },
+                                                                                "op": "p++"
+                                                                            },
+                                                                            "stmt": {
+                                                                                "_nodetype": "Compound",
+                                                                                "block_items": [
+                                                                                    {
+                                                                                        "_nodetype": "FuncCall",
+                                                                                        "args": {
+                                                                                            "_nodetype": "ExprList",
+                                                                                            "coord": "pcap_assign.c:48:33",
+                                                                                            "exprs": [
+                                                                                                {
+                                                                                                    "_nodetype": "ArrayRef",
+                                                                                                    "coord": "pcap_assign.c:48:33",
+                                                                                                    "name": {
+                                                                                                        "_nodetype": "ID",
+                                                                                                        "coord": "pcap_assign.c:48:33",
+                                                                                                        "name": "data"
+                                                                                                    },
+                                                                                                    "subscript": {
+                                                                                                        "_nodetype": "ID",
+                                                                                                        "coord": "pcap_assign.c:48:38",
+                                                                                                        "name": "i"
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        "coord": "pcap_assign.c:48:25",
+                                                                                        "name": {
+                                                                                            "_nodetype": "ID",
+                                                                                            "coord": "pcap_assign.c:48:25",
+                                                                                            "name": "putchar"
+                                                                                        }
+                                                                                    }
+                                                                                ],
+                                                                                "coord": "pcap_assign.c:47:1"
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "_nodetype": "FuncCall",
+                                                                            "args": {
+                                                                                "_nodetype": "ExprList",
+                                                                                "coord": "pcap_assign.c:50:29",
+                                                                                "exprs": [
+                                                                                    {
+                                                                                        "_nodetype": "Constant",
+                                                                                        "coord": "pcap_assign.c:50:29",
+                                                                                        "type": "char",
+                                                                                        "value": "'\\n'"
+                                                                                    }
+                                                                                ]
+                                                                            },
+                                                                            "coord": "pcap_assign.c:50:21",
+                                                                            "name": {
+                                                                                "_nodetype": "ID",
+                                                                                "coord": "pcap_assign.c:50:21",
+                                                                                "name": "putchar"
+                                                                            }
+                                                                        }
+                                                                    ],
+                                                                    "coord": "pcap_assign.c:45:1"
+                                                                }
+                                                            },
+                                                            {
+                                                                "_nodetype": "Break",
+                                                                "coord": "pcap_assign.c:53:17"
+                                                            }
+                                                        ],
+                                                        "coord": "pcap_assign.c:34:1"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_nodetype": "Default",
+                                                "coord": "pcap_assign.c:55:9",
+                                                "stmts": [
+                                                    {
+                                                        "_nodetype": "Break",
+                                                        "coord": "pcap_assign.c:56:13"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "coord": "pcap_assign.c:32:1"
+                                    }
+                                }
+                            ],
+                            "coord": "pcap_assign.c:12:1"
+                        }
+                    }
+                ],
+                "coord": "pcap_assign.c:8:1"
+            },
+            "coord": "pcap_assign.c:7:6",
+            "decl": {
+                "_nodetype": "Decl",
+                "align": [],
+                "bitsize": null,
+                "coord": "pcap_assign.c:7:6",
+                "funcspec": [],
+                "init": null,
+                "name": "got_packet",
+                "quals": [],
+                "storage": [],
+                "type": {
+                    "_nodetype": "FuncDecl",
+                    "args": {
+                        "_nodetype": "ParamList",
+                        "coord": "pcap_assign.c:7:22",
+                        "params": [
+                            {
+                                "_nodetype": "Decl",
+                                "align": [],
+                                "bitsize": null,
+                                "coord": "pcap_assign.c:7:22",
+                                "funcspec": [],
+                                "init": null,
+                                "name": "args",
+                                "quals": [],
+                                "storage": [],
+                                "type": {
+                                    "_nodetype": "PtrDecl",
+                                    "coord": "pcap_assign.c:7:22",
+                                    "quals": [],
+                                    "type": {
+                                        "_nodetype": "TypeDecl",
+                                        "align": null,
+                                        "coord": "pcap_assign.c:7:23",
+                                        "declname": "args",
+                                        "quals": [],
+                                        "type": {
+                                            "_nodetype": "IdentifierType",
+                                            "coord": "pcap_assign.c:7:17",
+                                            "names": [
+                                                "char"
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "_nodetype": "Decl",
+                                "align": [],
+                                "bitsize": null,
+                                "coord": "pcap_assign.c:7:54",
+                                "funcspec": [],
+                                "init": null,
+                                "name": "header",
+                                "quals": [
+                                    "const"
+                                ],
+                                "storage": [],
+                                "type": {
+                                    "_nodetype": "PtrDecl",
+                                    "coord": "pcap_assign.c:7:54",
+                                    "quals": [],
+                                    "type": {
+                                        "_nodetype": "TypeDecl",
+                                        "align": null,
+                                        "coord": "pcap_assign.c:7:55",
+                                        "declname": "header",
+                                        "quals": [
+                                            "const"
+                                        ],
+                                        "type": {
+                                            "_nodetype": "Struct",
+                                            "coord": "pcap_assign.c:7:42",
+                                            "decls": null,
+                                            "name": "pcap_pkthdr"
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "_nodetype": "Decl",
+                                "align": [],
+                                "bitsize": null,
+                                "coord": "pcap_assign.c:7:74",
+                                "funcspec": [],
+                                "init": null,
+                                "name": "packet",
+                                "quals": [
+                                    "const"
+                                ],
+                                "storage": [],
+                                "type": {
+                                    "_nodetype": "PtrDecl",
+                                    "coord": "pcap_assign.c:7:74",
+                                    "quals": [],
+                                    "type": {
+                                        "_nodetype": "TypeDecl",
+                                        "align": null,
+                                        "coord": "pcap_assign.c:7:75",
+                                        "declname": "packet",
+                                        "quals": [
+                                            "const"
+                                        ],
+                                        "type": {
+                                            "_nodetype": "IdentifierType",
+                                            "coord": "pcap_assign.c:7:69",
+                                            "names": [
+                                                "char"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "coord": "pcap_assign.c:7:6",
+                    "type": {
+                        "_nodetype": "TypeDecl",
+                        "align": null,
+                        "coord": "pcap_assign.c:7:6",
+                        "declname": "got_packet",
+                        "quals": [],
+                        "type": {
+                            "_nodetype": "IdentifierType",
+                            "coord": "pcap_assign.c:7:1",
+                            "names": [
+                                "void"
+                            ]
+                        }
+                    }
+                }
+            },
+            "param_decls": null
+        },
+        {
+            "_nodetype": "FuncDef",
+            "body": {
+                "_nodetype": "Compound",
+                "block_items": [
+                    {
+                        "_nodetype": "BinaryOp",
+                        "coord": "pcap_assign.c:63:3",
+                        "left": {
+                            "_nodetype": "ID",
+                            "coord": "pcap_assign.c:63:3",
+                            "name": "pcap_t"
+                        },
+                        "op": "*",
+                        "right": {
+                            "_nodetype": "ID",
+                            "coord": "pcap_assign.c:63:11",
+                            "name": "handle"
+                        }
+                    },
+                    {
+                        "_nodetype": "Decl",
+                        "align": [],
+                        "bitsize": null,
+                        "coord": "pcap_assign.c:64:8",
+                        "funcspec": [],
+                        "init": null,
+                        "name": "errbuf",
+                        "quals": [],
+                        "storage": [],
+                        "type": {
+                            "_nodetype": "ArrayDecl",
+                            "coord": "pcap_assign.c:64:8",
+                            "dim": {
+                                "_nodetype": "ID",
+                                "coord": "pcap_assign.c:64:15",
+                                "name": "PCAP_ERRBUF_SIZE"
+                            },
+                            "dim_quals": [],
+                            "type": {
+                                "_nodetype": "TypeDecl",
+                                "align": null,
+                                "coord": "pcap_assign.c:64:8",
+                                "declname": "errbuf",
+                                "quals": [],
+                                "type": {
+                                    "_nodetype": "IdentifierType",
+                                    "coord": "pcap_assign.c:64:3",
+                                    "names": [
+                                        "char"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_nodetype": "Decl",
+                        "align": [],
+                        "bitsize": null,
+                        "coord": "pcap_assign.c:65:22",
+                        "funcspec": [],
+                        "init": null,
+                        "name": "fp",
+                        "quals": [],
+                        "storage": [],
+                        "type": {
+                            "_nodetype": "TypeDecl",
+                            "align": null,
+                            "coord": "pcap_assign.c:65:22",
+                            "declname": "fp",
+                            "quals": [],
+                            "type": {
+                                "_nodetype": "Struct",
+                                "coord": "pcap_assign.c:65:10",
+                                "decls": null,
+                                "name": "bpf_program"
+                            }
+                        }
+                    },
+                    {
+                        "_nodetype": "Decl",
+                        "align": [],
+                        "bitsize": null,
+                        "coord": "pcap_assign.c:66:8",
+                        "funcspec": [],
+                        "init": {
+                            "_nodetype": "Constant",
+                            "coord": "pcap_assign.c:66:23",
+                            "type": "string",
+                            "value": "\"tcp\""
+                        },
+                        "name": "filter_exp",
+                        "quals": [],
+                        "storage": [],
+                        "type": {
+                            "_nodetype": "ArrayDecl",
+                            "coord": "pcap_assign.c:66:8",
+                            "dim": null,
+                            "dim_quals": [],
+                            "type": {
+                                "_nodetype": "TypeDecl",
+                                "align": null,
+                                "coord": "pcap_assign.c:66:8",
+                                "declname": "filter_exp",
+                                "quals": [],
+                                "type": {
+                                    "_nodetype": "IdentifierType",
+                                    "coord": "pcap_assign.c:66:3",
+                                    "names": [
+                                        "char"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "_nodetype": "Decl",
+                        "align": [],
+                        "bitsize": null,
+                        "coord": "pcap_assign.c:67:7",
+                        "funcspec": [],
+                        "init": null,
+                        "name": "net",
+                        "quals": [],
+                        "storage": [],
+                        "type": {
+                            "_nodetype": "TypeDecl",
+                            "align": null,
+                            "coord": "pcap_assign.c:67:7",
+                            "declname": "net",
+                            "quals": [],
+                            "type": {
+                                "_nodetype": "IdentifierType",
+                                "coord": "pcap_assign.c:67:3",
+                                "names": [
+                                    "int"
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "_nodetype": "Assignment",
+                        "coord": "pcap_assign.c:70:4",
+                        "lvalue": {
+                            "_nodetype": "ID",
+                            "coord": "pcap_assign.c:70:4",
+                            "name": "handle"
+                        },
+                        "op": "=",
+                        "rvalue": {
+                            "_nodetype": "FuncCall",
+                            "args": {
+                                "_nodetype": "ExprList",
+                                "coord": "pcap_assign.c:70:28",
+                                "exprs": [
+                                    {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:70:28",
+                                        "type": "string",
+                                        "value": "\"lo\""
+                                    },
+                                    {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:70:34",
+                                        "name": "BUFSIZ"
+                                    },
+                                    {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:70:42",
+                                        "type": "int",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "_nodetype": "UnaryOp",
+                                        "coord": "pcap_assign.c:70:46",
+                                        "expr": {
+                                            "_nodetype": "Constant",
+                                            "coord": "pcap_assign.c:70:46",
+                                            "type": "int",
+                                            "value": "1"
+                                        },
+                                        "op": "-"
+                                    },
+                                    {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:70:49",
+                                        "name": "errbuf"
+                                    }
+                                ]
+                            },
+                            "coord": "pcap_assign.c:70:13",
+                            "name": {
+                                "_nodetype": "ID",
+                                "coord": "pcap_assign.c:70:13",
+                                "name": "pcap_open_live"
+                            }
+                        }
+                    },
+                    {
+                        "_nodetype": "FuncCall",
+                        "args": {
+                            "_nodetype": "ExprList",
+                            "coord": "pcap_assign.c:73:17",
+                            "exprs": [
+                                {
+                                    "_nodetype": "ID",
+                                    "coord": "pcap_assign.c:73:17",
+                                    "name": "handle"
+                                },
+                                {
+                                    "_nodetype": "UnaryOp",
+                                    "coord": "pcap_assign.c:73:26",
+                                    "expr": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:73:26",
+                                        "name": "fp"
+                                    },
+                                    "op": "&"
+                                },
+                                {
+                                    "_nodetype": "ID",
+                                    "coord": "pcap_assign.c:73:30",
+                                    "name": "filter_exp"
+                                },
+                                {
+                                    "_nodetype": "Constant",
+                                    "coord": "pcap_assign.c:73:42",
+                                    "type": "int",
+                                    "value": "0"
+                                },
+                                {
+                                    "_nodetype": "ID",
+                                    "coord": "pcap_assign.c:73:45",
+                                    "name": "net"
+                                }
+                            ]
+                        },
+                        "coord": "pcap_assign.c:73:4",
+                        "name": {
+                            "_nodetype": "ID",
+                            "coord": "pcap_assign.c:73:4",
+                            "name": "pcap_compile"
+                        }
+                    },
+                    {
+                        "_nodetype": "If",
+                        "cond": {
+                            "_nodetype": "BinaryOp",
+                            "coord": "pcap_assign.c:74:7",
+                            "left": {
+                                "_nodetype": "FuncCall",
+                                "args": {
+                                    "_nodetype": "ExprList",
+                                    "coord": "pcap_assign.c:74:22",
+                                    "exprs": [
+                                        {
+                                            "_nodetype": "ID",
+                                            "coord": "pcap_assign.c:74:22",
+                                            "name": "handle"
+                                        },
+                                        {
+                                            "_nodetype": "UnaryOp",
+                                            "coord": "pcap_assign.c:74:30",
+                                            "expr": {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:74:30",
+                                                "name": "fp"
+                                            },
+                                            "op": "&"
+                                        }
+                                    ]
+                                },
+                                "coord": "pcap_assign.c:74:7",
+                                "name": {
+                                    "_nodetype": "ID",
+                                    "coord": "pcap_assign.c:74:7",
+                                    "name": "pcap_setfilter"
+                                }
+                            },
+                            "op": "==",
+                            "right": {
+                                "_nodetype": "UnaryOp",
+                                "coord": "pcap_assign.c:74:36",
+                                "expr": {
+                                    "_nodetype": "Constant",
+                                    "coord": "pcap_assign.c:74:36",
+                                    "type": "int",
+                                    "value": "1"
+                                },
+                                "op": "-"
+                            }
+                        },
+                        "coord": "pcap_assign.c:74:4",
+                        "iffalse": null,
+                        "iftrue": {
+                            "_nodetype": "Compound",
+                            "block_items": [
+                                {
+                                    "_nodetype": "FuncCall",
+                                    "args": {
+                                        "_nodetype": "ExprList",
+                                        "coord": "pcap_assign.c:75:15",
+                                        "exprs": [
+                                            {
+                                                "_nodetype": "ID",
+                                                "coord": "pcap_assign.c:75:15",
+                                                "name": "stderr"
+                                            },
+                                            {
+                                                "_nodetype": "Constant",
+                                                "coord": "pcap_assign.c:75:22",
+                                                "type": "string",
+                                                "value": "\"Error setting filter :%s\""
+                                            },
+                                            {
+                                                "_nodetype": "FuncCall",
+                                                "args": {
+                                                    "_nodetype": "ExprList",
+                                                    "coord": "pcap_assign.c:75:61",
+                                                    "exprs": [
+                                                        {
+                                                            "_nodetype": "ID",
+                                                            "coord": "pcap_assign.c:75:61",
+                                                            "name": "handle"
+                                                        }
+                                                    ]
+                                                },
+                                                "coord": "pcap_assign.c:75:49",
+                                                "name": {
+                                                    "_nodetype": "ID",
+                                                    "coord": "pcap_assign.c:75:49",
+                                                    "name": "pcap_geterr"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "coord": "pcap_assign.c:75:7",
+                                    "name": {
+                                        "_nodetype": "ID",
+                                        "coord": "pcap_assign.c:75:7",
+                                        "name": "fprintf"
+                                    }
+                                },
+                                {
+                                    "_nodetype": "Return",
+                                    "coord": "pcap_assign.c:76:7",
+                                    "expr": {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:76:14",
+                                        "type": "int",
+                                        "value": "1"
+                                    }
+                                }
+                            ],
+                            "coord": "pcap_assign.c:74:1"
+                        }
+                    },
+                    {
+                        "_nodetype": "FuncCall",
+                        "args": {
+                            "_nodetype": "ExprList",
+                            "coord": "pcap_assign.c:80:14",
+                            "exprs": [
+                                {
+                                    "_nodetype": "ID",
+                                    "coord": "pcap_assign.c:80:14",
+                                    "name": "handle"
+                                },
+                                {
+                                    "_nodetype": "UnaryOp",
+                                    "coord": "pcap_assign.c:80:23",
+                                    "expr": {
+                                        "_nodetype": "Constant",
+                                        "coord": "pcap_assign.c:80:23",
+                                        "type": "int",
+                                        "value": "1"
+                                    },
+                                    "op": "-"
+                                },
+                                {
+                                    "_nodetype": "ID",
+                                    "coord": "pcap_assign.c:80:26",
+                                    "name": "got_packet"
+                                },
+                                {
+                                    "_nodetype": "ID",
+                                    "coord": "pcap_assign.c:80:38",
+                                    "name": "NULL"
+                                }
+                            ]
+                        },
+                        "coord": "pcap_assign.c:80:4",
+                        "name": {
+                            "_nodetype": "ID",
+                            "coord": "pcap_assign.c:80:4",
+                            "name": "pcap_loop"
+                        }
+                    },
+                    {
+                        "_nodetype": "FuncCall",
+                        "args": {
+                            "_nodetype": "ExprList",
+                            "coord": "pcap_assign.c:82:15",
+                            "exprs": [
+                                {
+                                    "_nodetype": "ID",
+                                    "coord": "pcap_assign.c:82:15",
+                                    "name": "handle"
+                                }
+                            ]
+                        },
+                        "coord": "pcap_assign.c:82:4",
+                        "name": {
+                            "_nodetype": "ID",
+                            "coord": "pcap_assign.c:82:4",
+                            "name": "pcap_close"
+                        }
+                    },
+                    {
+                        "_nodetype": "Return",
+                        "coord": "pcap_assign.c:84:4",
+                        "expr": {
+                            "_nodetype": "Constant",
+                            "coord": "pcap_assign.c:84:11",
+                            "type": "int",
+                            "value": "0"
+                        }
+                    }
+                ],
+                "coord": "pcap_assign.c:62:1"
+            },
+            "coord": "pcap_assign.c:61:5",
+            "decl": {
+                "_nodetype": "Decl",
+                "align": [],
+                "bitsize": null,
+                "coord": "pcap_assign.c:61:5",
+                "funcspec": [],
+                "init": null,
+                "name": "main",
+                "quals": [],
+                "storage": [],
+                "type": {
+                    "_nodetype": "FuncDecl",
+                    "args": null,
+                    "coord": "pcap_assign.c:61:5",
+                    "type": {
+                        "_nodetype": "TypeDecl",
+                        "align": null,
+                        "coord": "pcap_assign.c:61:5",
+                        "declname": "main",
+                        "quals": [],
+                        "type": {
+                            "_nodetype": "IdentifierType",
+                            "coord": "pcap_assign.c:61:1",
+                            "names": [
+                                "int"
+                            ]
+                        }
+                    }
+                }
+            },
+            "param_decls": null
+        }
+    ]
+}
